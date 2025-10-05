@@ -4,7 +4,8 @@ const Navbar = () => {
 
     const links = <>
     <a href="" className='m-2'>Home</a>
-    <a href="" className='m-2'>About</a>
+    <a href="" className='m-2'>Listed Books</a>
+    <a href="" className='m-2'>Pages To Read</a>
     </>
 
     return (
@@ -20,13 +21,14 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl">Boi Poka</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 {links}
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <button className='btn bg-blue-500 text-white mr-10 rounded-full px-8 py-3'>Sine In</button>
+                <button className='btn bg-red-500 text-white rounded-full px-8 py-3'>Sine Up</button>
             </div>
         </div>
     );
