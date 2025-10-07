@@ -16,11 +16,12 @@ const BookDetails = () => {
     }
 
     return (
-        <div className="flex justify-center py-10 w-[1100px] mx-auto">
-           <div className="">
-             <img className="" src={image} alt="" />
-           </div>
-           <div className="ml-10">
+        <div className="flex justify-center py-10">
+           
+             <figure className="bg-gray-200 p-16">
+                <img className="w-full h-full mx-auto" src={image} alt="" />
+             </figure>
+           <div className="ml-10 w-full h-full mx-auto">
             <h2 className="text-2xl font-bold">{bookName}</h2>
             <p className="py-3 text-xl font-semibold">By: {publisher}</p>
             <div className="divider"></div>

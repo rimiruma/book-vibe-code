@@ -6,7 +6,7 @@ const Navbar = () => {
     const links = <>
     <Link to="/"><a className='m-2'>Home</a></Link>
     <Link><a className='m-2'>Listed Books</a></Link>
-    <Link><a className='m-2'>Pages To Read</a></Link>
+    <Link to="/readList"><a className='m-2'>Read List</a></Link>
     <Link to="/about"><a className='m-2'>About</a></Link>
     </>
 
@@ -23,7 +23,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Boi Poka</a>
+                <Link to="/"><a className="btn btn-ghost text-xl">Boi Poka</a></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 {links}
